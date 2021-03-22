@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Alodokter</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="detail">Detail</string>
+    <string name="gallery">GALLERY</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="dimas_oktanugraha">DIMAS OKTANUGRAHA</string>
+
+</resources>

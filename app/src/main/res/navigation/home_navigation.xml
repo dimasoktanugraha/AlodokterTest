@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/home_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dimas.alodokter.ui.main.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.dimas.alodokter.ui.main.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.dimas.alodokter.ui.main.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+</navigation>
